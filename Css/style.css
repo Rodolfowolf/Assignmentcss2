@@ -1,0 +1,166 @@
+body{
+  font-family: 'Orbitron', sans-serif;
+  background-image: linear-gradient(#6495ED,#6959CD);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  text-shadow: 1px 1px 2px #000000;
+  color: white;
+  margin: 5%;
+  text-align: justify;
+ }
+ form{
+  font-family:arial;
+  max-width: 100%;
+ }
+ pre{
+  font-family: "Audiowide", sans-serif;
+  font-size: 2em;
+ }
+ p{
+  font-family: "Audiowide", sans-serif;
+  margin: auto;
+  font-size: 2em;
+  width: 200%;
+  display:flex;
+  border:1px solid goldenrod;
+  margin:5px;
+  text-align: justify;
+  height: 10%;
+  padding: 0vw;
+ }
+ p:hover{
+   background-color:#6959CD;
+ }
+ p::first-letter{
+   font-size:500%;
+ }
+ p::first-line{
+   font-weight:bold;
+   font-size: 100%;
+ }
+ h1{
+   font-family: 'Orbitron', sans-serif;
+ }
+ #div{
+   font-family:arial;
+   display: inline-block;
+   max-width: 35%;
+   order:2;
+  }
+ #divheader{
+  font-family:arial;
+  border: none; 
+  margin: auto;
+  max-width: 100%;
+  order:1;
+ }
+ #divmain{
+  font-family:arial;
+  display: inline-block;
+  max-width: 35%;
+  order:2;
+ }
+ #divfooter{
+  font-family: 'Orbitron', sans-serif;
+  background:lightgray;
+  color: white;
+  font-family:arial;
+  border: none; 
+  display: grid;
+  margin: auto;
+  order:3;
+ }
+ hr{
+  border-color: #836FFF;
+  margin: auto;
+ }
+ #logo{
+  max-width:10%;
+  position: fixed;
+  top: 0;
+  bottom: 1;
+  left: 1;
+  right: 0;
+  border: 0px solid;
+ }
+ #image{
+   max-width:20%;
+   position: fixed;
+   top: 1;
+   bottom: 0;
+   left: 1;
+   right: 0;
+   border: 0px solid;
+  }
+ #banner{
+   max-width:100%;
+   opacity: 0.7;
+ }
+ img{
+  max-width:100%;
+  opacity: 0.7;
+ }
+ #button_menu {
+  background-color: goldenrod;
+  padding: 20px;
+  text-decoration: none;
+  border-radius: 10px;
+  cursor: pointer;
+  display:grid;
+  color:#ffffff;
+ }
+ input {
+   background-color: goldenrod;
+   padding: 10px;
+   text-decoration: none;
+   border-radius: 10px;
+   cursor: pointer;
+   display:grid;
+   color:#ffffff;
+  }
+ textarea {
+   background-color: goldenrod;
+   padding: 10px;
+   text-decoration: none;
+   border-radius: 10px;
+   cursor: pointer;
+   display:grid;
+   color:#ffffff;
+  }
+ #menu{
+  font-family: 'Orbitron', sans-serif;
+  border: none; 
+  display: inline-flex;
+  margin: auto;
+  max-width:200px;
+  max-height:150px;
+  width: auto;
+  height: auto;
+  border: 0px solid;
+ }
+ #table{
+  color: white;
+  background-image: linear-gradient(goldenrod,#836FFF);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  text-align: left;
+  text-shadow: 1px 1px 2px #000000;
+  margin: 0 auto;    
+ }
+ a{
+   font-family: 'Orbitron', sans-serif;
+ }
+ a:visited {
+   color: white;
+ }
+ a:hover {
+   color: lightgoldenrodyellow;
+ }
+ input{
+   max-width: 50%;
+ }
+ ul{
+   font-family: "Audiowide", sans-serif;
+   margin: auto;
+   font-size: 2em;
+ }
