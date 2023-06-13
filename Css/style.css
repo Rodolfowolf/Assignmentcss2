@@ -82,6 +82,7 @@ body{
   left: 1;
   right: 0;
   border: 0px solid;
+  filter: drop-shadow(16px 16px 5px black);
  }
  #image{
    max-width:20%;
@@ -91,6 +92,7 @@ body{
    left: 1;
    right: 0;
    border: 0px solid;
+   filter: drop-shadow(16px 16px 5px black);
   }
  #banner{
    max-width:100%;
